@@ -1,0 +1,66 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 18% repeat(7, 1fr) 18%;
+  grid-template-rows: 80px auto 625px auto 350px;
+  padding: 5px 0 0 0;
+}
+
+.grid-container > div {
+  text-align: center;
+  font-size: 19px;
+}
+
+.grid-nav-item-Logo {
+  grid-column: 3/span 1;
+}
+
+.grid-nav-item-Gallery {
+  grid-column: 4/span 1;
+}
+
+.grid-nav-item-About {
+  grid-column: 5/span 1;
+}
+
+.grid-nav-item-Contacts {
+  grid-column: 6/span 1;
+}
+
+.grid-nav-item-Login {
+  grid-column: 7/span 1;
+}
+
+/* WARNING: End of First Row */
+
+.grid-item-mark-img {
+  grid-column: 1 / 6;
+  grid-row: 2;
+  z-index: 0;
+}
+
+.grid-item-mark-text {
+  grid-column: 4/8;
+  grid-row: 2;
+  z-index: 1;
+}
+
+/* WARNING: End of Second Row */
+
+.grid-item-Gallery{
+  grid-column: 1/span 9;
+  grid-row: 3;
+  background-color: #212121;
+}
+
+/* WARNING: End of Third Row */
+
+.grid-item-Ram-banner {
+  grid-column: 1/ span 9;
+  grid-row: 4;
+}
+
+/* WARNING: End of Fourth Row */
+
+.grid-item-Footer {
+  grid-row: 5;
+}
