@@ -1,3 +1,4 @@
+/*Button container for svg*/
 a.logo-button {
   display: block;
   padding: 12px 0.4vw 12px 0.4vw;
@@ -10,6 +11,7 @@ a.logo-button {
   height: 30px;
 }
 
+/*General purpose for all navigation-buttons*/
 a.nav-button {
   display: block;
   font-family: Montserrat, serif;
@@ -22,19 +24,6 @@ a.nav-button {
 a.nav-button:hover {
   font-weight: 600;
 }
-
-/*
-a elements always span the entirety of the div since they are block and only 1 line of text
-(they do so scaling with the website, unsure if thats grid's actions though
-since it contains the a and is created scalable in this case)
-
-so for adjustments in size:
-padding will work for top and bottom (adding)
-and
-margin will work for left and right (subtracting)
-
-IMPORTANT: will fuck up the scalability on lower resolutions for some reason
-*/
 
 a.login-button {
   display: block;
@@ -61,8 +50,9 @@ a.signup-button {
   padding: 0 0.6vw 0.5vw 2px;
 }
 
-/* WARNING: End of First Row */
+/* WARNING: End of First Section */
 
+/*"mark" related elements refer to the same section where an image of mark is placed*/
 .mark-img{
   display: block;
   max-width: 60%;
@@ -108,8 +98,9 @@ a.join-program-button:hover {
   transform: translateY(-3px);
 }
 
-/* WARNING: End of Second Row */
+/* WARNING: End of Second Section */
 
+/*Gallery headline*/
 .gallery-h {
   font-size: 42px;
   font-weight: 500;
@@ -128,7 +119,7 @@ a.join-program-button:hover {
   font-family: Poppins, sans-serif;
   font-size: 2vw;
   font-weight: 400;
-  line-height: 15vw; /* line-height: 290px; WARNING: NEEDS TO BE A LIL ABOVE HALF OF THE BG */
+  line-height: 15vw;
 }
 
 .preview1:hover {
@@ -185,7 +176,7 @@ a.join-program-button:hover {
   line-height: 15.5vw;
 }
 
-/* WARNING: End of Third Row */
+/* WARNING: End of Third Section */
 
 .ram-banner-h {
   margin-top: 2.2vw;
@@ -213,7 +204,7 @@ a.join-program-button:hover {
   margin: 60px 0 30px 0;
 }
 
-/* WARNING: End of Fourth Row */
+/* WARNING: End of Fourth Section */
 
 .footer {
   background-color: #2e2e2e;
